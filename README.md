@@ -15,14 +15,19 @@ This Python script is designed to automatically clean cache folders associated w
    - If confirmed, the folders are deleted one by one using `shutil.rmtree()`, and confirmation messages are displayed after the deletion of each folder.
    - In case of an error during the deletion of a folder, an error message is displayed with the details of the error.
 
-## How to Use:
+## How to Use (as User):
+1. Simply download the .exe file and run it
+2. Follow the on-screen instructions to confirm the deletion of cache folders associated with 'FiveM'.
+3. Once the script completes the cache clearing process, you can close the terminal or command prompt.
+   
+## How to Use (as Dev):
 
 1. Make sure you have Python installed on your system.
-2. Download the `cache_cleaner.py` script from this repository.
-3. Open a terminal or command prompt and navigate to the directory where the script is located.
+2. Download the `main.py` script from this repository.
+3. Open any idle of your preference.
 4. Run the script by executing the following command:
    ```bash
-   python cache_cleaner.py
+   python main.py
 5. Follow the on-screen instructions to confirm the deletion of cache folders associated with 'FiveM'.
 6. Once the script completes the cache clearing process, you can close the terminal or command prompt.
 
